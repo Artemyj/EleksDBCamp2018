@@ -129,6 +129,7 @@
     <Folder Include="dbo\User Defined Types\" />
     <Folder Include="SalesLT\XMLSchemaCollections\" />
     <Folder Include="Server Objects\" />
+    <Folder Include="Test" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\dbCamp_MatchesList.sql">
@@ -271,5 +272,15 @@
     <Build Include="Server Objects\AlwaysOn_health.sql" />
     <Build Include="Server Objects\telemetry_xevents.sql" />
     <Build Include="ExtendedProperties.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Script.PreDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Test\ExecutionResult.png" />
+    <None Include="Test\Test.sql" />
   </ItemGroup>
 </Project>
