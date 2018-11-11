@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [AMELNYKL\artemii.melnyk]
+    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
+
